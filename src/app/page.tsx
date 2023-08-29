@@ -1,6 +1,5 @@
 'use client'
 
-import Image from 'next/image'
 import { Paper, TextField, Button } from '@mui/material'
 import { useState, useEffect } from 'react'
 
