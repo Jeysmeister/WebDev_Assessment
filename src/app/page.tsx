@@ -25,8 +25,10 @@ export default function Home() {
   }
 
   const addPlans = () => {
-    setplans(plans.concat(todo))
-    settodo('')
+    if (todo !== ''){
+      setplans(plans.concat(todo))
+      settodo('')
+    }
   }
 
   const removePlan = (index: number) => {
